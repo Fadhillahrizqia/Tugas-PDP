@@ -33,8 +33,12 @@ Proses Pembangunan Teknologi Informasi secara umum mengikuti Web Development Lif
 
 Didalam website ini akan terdapat game yang saya buat
 
-•	Merk = Pacman (Berdasarkan Game yang sudah ada)
 
+Backstory
+Game ini menceritakan kisah seseorang yang ingin mencari ilmu dengan sungguh sungguh dimanapun dia berada, namun tantangan terbesarnya adalah dia masih terbiasa dengan kemalasannya serta banyaknya ia membuat alasan sehingga terus menunda apapun yang ingin dia capai, maka dia mau tidak mau jika ingin mendapatkan apa yang dia inginkan maka ia harus terus bergerak tanpa henti untuk terus mencoba meraih apa yang ingin dia capai dengan terus menghindari apapun cobaan terutama sifat malasnya.
+
+•	Merk = Pacman (Berdasarkan Game yang sudah ada)
+•	Campaign : Bagaimana membuat aplikasi yang menyenangkan bagi penggunanya
 
 •	Target User :
 
@@ -55,12 +59,10 @@ Didalam website ini akan terdapat game yang saya buat
     
     o	Menginspirasi
     
-    o	Warna : warna orange, background biru
+    o	Warna : warna biru, background hitam
 
 - Inspirasi Desain :
 
-
-<img width="550" alt="image" src="https://github.com/Fadhillahrizqia/Frazxx_Shop/assets/144824636/795246ff-9ea2-4330-9b18-68f0f38e8ef8">
 <img width="550" alt="image" src="https://github.com/Fadhillahrizqia/Tugas-PDP/assets/144824636/4b75448e-1f54-4c14-aca7-07cff60a15d9">
 
 
@@ -72,13 +74,7 @@ Didalam website ini akan terdapat game yang saya buat
 
 Sebagai | Saya ingin bisa | Sehingga | Prioritas
 ---|---|---|---
-pengguna | melihat daftar produk tersedia | bisa memilih produk yang tersedia disetiap toko | ⭐⭐⭐⭐⭐
-Pengguna | Mengklik "add to cart" | Bisa menambahkan produk ke shopping cart | ⭐⭐⭐⭐⭐
-Pengguna | Mengklik Navigation Bar di ukuran kecil | Lebih rapih dan tidak berantakan | ⭐⭐⭐
-Pengguna | Mengklik Detail Product | Bisa memunculkan detail product | ⭐⭐⭐⭐⭐
-pengguna | Membeli produk | bisa  membawa pulang produk yang dipilih  | ⭐⭐⭐⭐⭐
-pengguna | Menghapus produk dari cart | bisa  diganti dengan produk lain | ⭐⭐⭐⭐
-pengguna | melihat review produk | bisa melihat feedback dari yang sudah pernah pesan | ⭐⭐⭐
+pengguna | Menggerakkan Player dengan Keyboard  | bisa memencet tombol Up Down Right Left | ⭐⭐⭐⭐⭐
 
 
 
@@ -87,61 +83,12 @@ pengguna | melihat review produk | bisa melihat feedback dari yang sudah pernah 
 Cara membuat aneka macam bentuk grafik menggunakan mermaid.js bisa lihat di [https://mermaid.js.org/syntax/entityRelationshipDiagram.html](https://mermaid.js.org/syntax/entityRelationshipDiagram.html) 
 
 ```mermaid
----
-title:  Rstore
----
 erDiagram
-    kategori ||--o{ produk_galeri : produk kategori {
-        int id PK
-        varchar nama
-        varchar slug
-} produk_galeri ||--o{ produk : view produk_galeri {
-        int id PK
-        varchar photo
-        int produk_id
-} produk ||--o{ keranjang : places produk {
-        int id PK
-        varchar nama
-        int users_id FK
-        int harga
-        text deskripsi
-        int kategori_id FK
-} keranjang ||--|{ pengguna : save keranjang {
-        int id PK
-        int produk_id FK
-        int users_id FK
-} pengguna ||..|{ transaksi : procces pengguna {
-        int id PK
-        varchar nama
-        varchar email
-        varchar password
-        text alamat_1
-        text alamat_2
-        int provinsi_id
-        int kabupaten_id
-        int kode_pos
-        varchar negara
-        varchar nomor_telepon
-        varchar nama_toko
-        int kategori_id FK
-        int status_toko
-} transaksi }|..|{ detail_transaksi : payment transaksi {
-        int id PK
-        int users_id FK
-        int harga_diskon
-        int harga_pengiriman
-        int total_harga
-        varchar status_transaksi
-        varchar resi
-} detail_transaksi {
-        int id PK
-        int transaksi_id
-        int produk_id
-        int harga
-}
-
-    
+    RUJAK ||--o{ SAYUR : tersusun
+    PEMBELI ||--|{ RUJAK : beli
 ```
+
+
 
 ## 4. Arsitektur Sistem
 
