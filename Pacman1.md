@@ -1,6 +1,6 @@
 ## 1.1 Latar Belakang
 
-Disini saya akan membuat website bisnis yang bertemakan E-commerce. Dan yang menjadi alasan saya membuat E-commerce ini adalah agar kita bisa melakukan perdagangan serta pembelian secara mudah dan simpel dengan melalui sistem elektronik
+Disini saya Membuat Website Game, dan alasan saya membuat game tersebut dikarenakan game tersebut dari segi backstorynya agar kita bisa belajar dari game tersebut bahwa untuk mencari ilmu maka kita harus terus bergerak tanpa ragu
      
 Proses Pembangunan Teknologi Informasi secara umum mengikuti Web Development Life Cycle :
 
@@ -11,10 +11,10 @@ Proses Pembangunan Teknologi Informasi secara umum mengikuti Web Development Lif
 
    -	Design
 
-    	Setelah itu saya akan mencoba mendesain sketsa dari website saya, kemudian didesain dengan saya gambar agar memudahkan penggambaarannya
+    	Setelah itu saya akan mencoba mendesain sketsa dari website saya, kemudian didesain dengan saya gambar agar memudahkan penggambarannya
 
    -	Development
-     Setelah desain dan menentukan teknologi apa saja yang akan digunakan, kemudian saya akan mencoba mengaplikasikan desain tadi ke kodingan. Mulanya saya akan membuat struktur dasar menggunakan HTML, kemudian diberikan style menggunakan CSS,dan JavaScript
+     Setelah desain dan menentukan teknologi apa saja yang akan digunakan, kemudian saya akan mencoba mengaplikasikan desain tadi ke kodingan. Mulanya saya akan membuat struktur dasar menggunakan HTML, kemudian diberikan style menggunakan,dan JavaScript
 
    - Testing & Review
 
@@ -31,27 +31,20 @@ Proses Pembangunan Teknologi Informasi secara umum mengikuti Web Development Lif
 
 ## 1.2. Deksripsi Teknologi Informasi
 
-Didalam website ini akan terdapat homepage tentang landing page toko saya
+Didalam website ini akan terdapat game yang saya buat
 
-•	Merk = Frazx (Terinspirasi dari "Nama saya sendiri")
+•	Merk = Pacman (Berdasarkan Game yang sudah ada)
 
-•	Tagline = "Great Product Great Service"
-
-•	Campaign = Bagaimana membuat website yang menyediakan info bagi pembeli tentang bisnis E-Commerce, maupun melakukan transaksi secara online agar memudahkan pembeli
 
 •	Target User :
 
-    o	Usia 15+
+    o	Usia 12+
     
-    o	Orang yang ingin membeli barang elektronik
+    o	Orang yang senang dengan game tantangan
     
-    o	Orang yang ingin melihat referensi E-commerce
-    
-    o	Orang yang suka membeli barang secara online
+    o	Orang yang ingin melihat referensi Game
     
        
-    o	Orang yang ingin melihat productnya sebelum datang ke toko
-    
     •	User Experience :
     
     o	Mudah
@@ -68,6 +61,8 @@ Didalam website ini akan terdapat homepage tentang landing page toko saya
 
 
 <img width="550" alt="image" src="https://github.com/Fadhillahrizqia/Frazxx_Shop/assets/144824636/795246ff-9ea2-4330-9b18-68f0f38e8ef8">
+<img width="550" alt="image" src="https://github.com/Fadhillahrizqia/Tugas-PDP/assets/144824636/4b75448e-1f54-4c14-aca7-07cff60a15d9">
+
 
 
 
