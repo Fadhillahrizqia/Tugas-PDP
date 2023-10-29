@@ -61,6 +61,15 @@ Game ini menceritakan kisah seseorang yang ingin mencari ilmu dengan sungguh sun
     
     o	Warna : warna biru, background hitam
 
+Genre :
+
+    o	Action Maze Chase
+    
+     o	Action Game
+
+
+
+
 - Inspirasi Desain :
 
 <img width="550" alt="image" src="https://github.com/Fadhillahrizqia/Tugas-PDP/assets/144824636/4b75448e-1f54-4c14-aca7-07cff60a15d9">
@@ -84,8 +93,8 @@ Cara membuat aneka macam bentuk grafik menggunakan mermaid.js bisa lihat di [htt
 
 ```mermaid
 erDiagram
-    RUJAK ||--o{ SAYUR : tersusun
-    PEMBELI ||--|{ RUJAK : beli
+
+    Pengguna ||--|{ Game-Berjalan : Play
 ```
 
 
@@ -96,13 +105,12 @@ Masih pake mermaid.js juga bisa lihat flowchart di [https://mermaid.js.org/synta
 
 ```mermaid
 flowchart TD
-    id1[(Database: MySQL)] <--> id2[Aplikasi Web Backend: Javascript - Laravel] <--> id3[Web Server: Javascript - Laravel]  
+    id1[(Database: MySQL)] <--> id2[Aplikasi Web Backend: Javascript ] <--> id3[Web Server: Javascript ]  
 ```
 
 ## 5. Teknologi, Library, dan Framework
 
-di project ini saya menggunakan Visual Studio Code sebagai teknologi pendukung saya, serta saya menggunakan font awesome sebagai media saya untuk mengambil icon
-lalu untuk library serta framework saya menggunakan Laravel
+di project ini saya menggunakan Visual Studio Code sebagai teknologi pendukung saya
 
 ## 6. Desain User Experience dan User Interface
 - Ini adalah link figma saya
@@ -140,24 +148,27 @@ lalu untuk library serta framework saya menggunakan Laravel
 
 
 
+ ## 7.Flowchart Algoritma
+
+```mermaid
+flowchart TD
+    id1[(Mulai)] <--> id2[Untuk jalan tekan Up, Down, Right, Left ] <--> id3[Mulai Memakan buah untuk menang ] <--> id4[Hindari ghost sebisa mungkin/kalah] <--> id5[jika berhasil game menang] 
+```
 
 
-## 7. Demonstrasi Video
+
+## 8. Demonstrasi Video
 
 Link youtube nya
 
-## 8. Bagaimana mesin komputasi dan sistem operasi berperan dalam produk teknologi informasimu ?
+## 8. Code Game
 
 Link youtube nya di detik jawaban ini
 
-## 9. Bagaimana algoritma, struktur data, dan bahasa pemrograman berperan dalam produk teknologi informasimu ?
+## 9. Bagaimana algoritma, struktur data, dan bahasa pemrograman berperan dalam Game ?
 
 Link youtube nya di detik jawaban ini
 
-## 10. Bagaimana metode pengembangan perangkat lunak / Software Development Life Cycle berperan dalam produk teknologi informasimu ?
 
-Link youtube nya di detik jawaban ini
 
-## 11. Bagaimana database / sistem basis data berperan dalam produk teknologi informasimu ?
 
-Link youtube nya di detik jawaban ini
