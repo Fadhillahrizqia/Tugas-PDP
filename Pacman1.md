@@ -113,38 +113,12 @@ flowchart TD
 di project ini saya menggunakan Visual Studio Code sebagai teknologi pendukung saya
 
 ## 6. Desain User Experience dan User Interface
-- Ini adalah link figma saya
-  https://www.figma.com/file/2Q3f3SrSDHTnylwDSUJnJl/dracoffee-design?type=design&mode=design&t=ByOMLVuTpahXCXyJ-1
-  
-1. Ini adalah desain ui page website saya
-
-<img width="512" alt="image" src="https://github.com/anandanovianshaf/dracoffee/assets/144409312/35d185f4-d9f0-4f66-b3fb-73ba26f1fb66">
-
-
- Ketika search di klik, akan keluar search bar
- 
-   <img width="416" alt="image" src="https://github.com/anandanovianshaf/dracoffee/assets/144409312/33315e01-20f9-4062-b504-43440711b930">
 
 
 
+tampilannya 
+![image](https://github.com/Fadhillahrizqia/Tugas-PDP/assets/144824636/17f9f882-2045-484d-9d94-c078d0dc7561)
 
-2. Tampilan page sudah responsive, dibawah adalah gambar page di ukuran smartphone.
-
-     Navigation bar akan berpindah ke dalam navbar menu, ketika di klik akan memunculkan navbar
-
-     <img width="404" alt="image" src="https://github.com/anandanovianshaf/dracoffee/assets/144409312/a8729978-ff5a-4c4b-b4c4-68841dfa809d">
-
-
-
-3. Dibawah tampilan page di bagian product
-
-  - Ketika button mata di klik, akan muncul modal box yang menampilkan detail product
-   
-     <img width="557" alt="image" src="https://github.com/anandanovianshaf/dracoffee/assets/144409312/e14f9452-213c-46d5-a810-9f8403825ea6">
-
-  - Ketika icon shopping cart di navbar di klik, akan muncul produk yang sudah ditambahkan ke shopping cart
-   
-      <img width="490" alt="image" src="https://github.com/anandanovianshaf/dracoffee/assets/144409312/498ac68c-c0c7-4bd0-91e9-96375de532af">
 
 
 
