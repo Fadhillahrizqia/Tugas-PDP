@@ -105,7 +105,7 @@ Masih pake mermaid.js juga bisa lihat flowchart di [https://mermaid.js.org/synta
 
 ```mermaid
 flowchart TD
-    id1[(Database: MySQL)] <--> id2[Aplikasi Web Backend: Javascript ] <--> id3[Web Server: Javascript ]  
+    id1[(Database: PostgreSQL)] <--> id2[Aplikasi Web Backend: Javascript ] <--> id3[Web Server: Javascript ]  
 ```
 
 ## 5. Teknologi, Library, dan Framework
@@ -133,7 +133,7 @@ flowchart TD
 
 ## 8. Demonstrasi Video
 
-Link youtube nya
+
 
 ## 8. Code Game
 
