@@ -37,7 +37,7 @@ Didalam website ini akan terdapat game yang saya buat
 Backstory
 Game ini menceritakan kisah seseorang yang ingin mencari ilmu dengan sungguh sungguh dimanapun dia berada, namun tantangan terbesarnya adalah dia masih terbiasa dengan kemalasannya serta banyaknya ia membuat alasan sehingga terus menunda apapun yang ingin dia capai, maka dia mau tidak mau jika ingin mendapatkan apa yang dia inginkan maka ia harus terus bergerak tanpa henti untuk terus mencoba meraih apa yang ingin dia capai dengan terus menghindari apapun cobaan terutama sifat malasnya.
 
-•	Merk = Pacman (Berdasarkan Game yang sudah ada)
+•	Merk = Move & out (Berdasarkan backstory)
 •	Campaign : Bagaimana membuat aplikasi yang menyenangkan bagi penggunanya
 
 •	Target User :
@@ -84,6 +84,14 @@ Genre :
 Sebagai | Saya ingin bisa | Sehingga | Prioritas
 ---|---|---|---
 pengguna | Menggerakkan Player dengan Keyboard  | bisa memencet tombol Up Down Right Left | ⭐⭐⭐⭐⭐
+pengguna | Memunculkan buah untuk score  | bisa memunculkan buah | ⭐⭐⭐⭐⭐
+pengguna | Player memakan buah yang ada / score  | bisa memakan buah yang ada di map | ⭐⭐⭐⭐⭐
+pengguna | Memunculkan ghost untuk mengejar Player  | bisa memunculkan ghost untuk mengejar | ⭐⭐⭐⭐⭐
+pengguna | Melihat pergerakkan Ghost bergerak   | bisa melihat pergerakkan ghost  | ⭐⭐⭐⭐⭐
+pengguna | Menampilkan papan Score | bisa menampilkan papan score | ⭐⭐⭐⭐
+pengguna | Menampilkan jumlah nyawa yang ada  | bisa memunculkan nyawa | ⭐⭐⭐⭐
+pengguna | Memulai kembali game tanpa memulai score dari awal  | bisa memulai kembali game | ⭐⭐⭐⭐⭐
+pengguna | Meningkatkan kesulitan game seiring berjalan waktu  | bisa meningkatkan kesulitan game | ⭐⭐⭐⭐⭐
 
 
 
@@ -141,8 +149,16 @@ Link youtube nya di detik jawaban ini
 
 ## 9. Bagaimana algoritma, struktur data, dan bahasa pemrograman berperan dalam Game ?
 
-Link youtube nya di detik jawaban ini
+ALGORITMA
+1. mulai game
+2. makan titik - titik kuning sampai habis untuk menang
+3. begitu game mulai maka ghost akan muncul bertebaran juga secara random 
+4. hindari ghost yang bertebaran di sekitar
+5. jika terkena ghost maka game mengulang diawal sebanyak nyawa yang ada dan hanya merubah posisi ke semula tidak dengan score yang didapatkan
+6. jika nyawa habis maka game selesai dan mode game kembali ke pengaturan awal
+7. begitupun sebaliknya jika titik- titik kuning habis disaat nyawa masih tersisa maka game menang dan game akan kembali ke semula
 
-
+STRUKTUR DATA
+1. 
 
 
